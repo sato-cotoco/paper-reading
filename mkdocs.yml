@@ -1,0 +1,17 @@
+site_name: Paper Reading Log
+site_url: https://<YOUR_USER>.github.io/paper-reading/
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.footer
+    - content.code.copy
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Papers:
+      - 2025:
+          - はじめに: papers/2025/index.md
+repo_url: https://github.com/<YOUR_USER>/paper-reading
+edit_uri: edit/main/docs/
